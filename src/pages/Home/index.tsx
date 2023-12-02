@@ -1,13 +1,10 @@
 import React, { ReactElement, useState } from "react";
 
-
 import { AbCampoTexto } from "ds-alurabooks";
 
-import { Menu } from "../../components/Menu";
 import { Banner } from "../../components/Banner";
 import { SessionBooks } from "../../components/SessionBooks";
 import { BrowsingBooks } from "../../components/BrowsingBooks";
-
 
 export const Home = (): ReactElement => {
 	const [search, setSearch] = useState("");
@@ -62,7 +59,6 @@ export const Home = (): ReactElement => {
 
 	return (
 		<>
-			<Menu />
 			<Banner
 				background="true"
 				title='Já sabe por onde começar?'

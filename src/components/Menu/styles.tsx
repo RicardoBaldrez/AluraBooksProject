@@ -15,20 +15,23 @@ export const WrapperLeft = styled.div`
 export const MenuCompanyName = styled.span``;
 
 export const WrapperUserMenu = styled.div`
-  display: flex;
-  flex-basis: 280px;
-  justify-content: space-between;
-  & p {
+  & ul {
     display: flex;
-    align-items: center;
-    &:hover {
-      cursor: pointer;
-    }
-    & span {
-      font-size: 16px;
-      margin-left: 8px;
-      font-weight: 500;
-      color: #000000;
+    justify-content: space-between;
+    width: 230px;
+    & li {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+      & span {
+        font-size: 16px;
+        margin-left: 8px;
+        font-weight: 500;
+        color: #000000;
+      }
     }
   }
 `;

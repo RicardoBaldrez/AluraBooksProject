@@ -1,10 +1,22 @@
 import React from "react";
+
 import "./App.css";
-import { Home } from "./pages/Home";
+
+import { Menu } from "./components/Menu";
+import { MostSearchedCategories } from "./components/MostSearchedCategories";
+import { Newsletter } from "./components/Newsletter";
+import { Footer } from "./components/Footer";
+import { RoutesApplication } from "./routes";
 
 function App() {
 	return (
-		<Home />
+		<>
+			<Menu />
+			<RoutesApplication />
+			<MostSearchedCategories />
+			<Newsletter />
+			<Footer />
+		</>
 	);
 }
 
